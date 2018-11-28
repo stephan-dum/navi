@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "files" : ["./src/index.tsx"],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "jsx" : "react",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  }
+}
